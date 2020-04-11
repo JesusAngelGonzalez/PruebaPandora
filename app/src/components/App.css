@@ -1,0 +1,92 @@
+
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  /* Fuente + color letra predeter */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+  color: #363636;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  text-transform: none;
+  color: inherit;
+  font: inherit;
+}
+
+a {
+  background-color: transparent;
+  color: #0088ce;
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.app-container {
+  position: relative;
+  top: 60px;
+}
+.navbar-active {
+  margin-left: 250px;
+}
+.navbar-collapsed{
+  margin-left: 75px;
+}
+.navbar-hidden{
+  margin-left: 0px;
+}
+.responsive{}
+
+
+
+/* ------------------ REACT_HOME ----------------------- */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #c4ccc4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
